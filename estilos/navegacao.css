@@ -1,0 +1,51 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 5em;
+    align-items: center;
+}
+
+.navegacao-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+
+.navegacao-menu {
+    margin-right: auto;
+}
+
+.texto-logo {
+    margin: 0.7em;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-medio);
+}
+
+.navegacao-lista {
+    display: flex;
+    margin-right: 1em;
+}
+
+.lista-link {
+    margin: 0.4em;
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lista-botao {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
+
+.cadastro {
+    background-color: var(--vermelho);
+    padding: 0.7em 1em;
+    color: var(--branco);
+    border: 1px solid;
+    border-radius: 10px;
+}

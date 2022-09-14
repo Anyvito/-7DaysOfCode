@@ -1,0 +1,26 @@
+@import url("estilos/navegacao.css");
+@import url("estilos/cabecalho.css");
+@import url("estilos/metricas.css");
+@import url("estilos/vagas.css");
+@import url("estilos/depoimentos.css");
+@import url("estilos/rodape.css");
+
+:root {
+    --cinza-claro: #667085;
+    --cinza-medio: #3A404E;
+    --cinza-escuro: #101828;
+    --cinza-coprigth: #98A2B3;
+    --cinza-borda: #EAECF0;
+    --vermelho: #8E2424;
+    --branco: #FFFFFF;
+    --background-cinza: #C3191908;
+    --fonte-principal: "Inter"
+}
+
+body {
+    background-color: var(--branco);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+}

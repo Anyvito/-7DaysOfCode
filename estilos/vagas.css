@@ -1,0 +1,70 @@
+.vagas-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.vagas-subtitulo {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background-color: var(--background-cinza);
+    border-radius: 14px;
+    padding: 0.6em;
+}
+
+.vagas-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0.5em;
+}
+
+.vagas-texto {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+.vagas-imagen {
+    width: 85%;
+}
+
+.vagas-categoria {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+}
+
+.vagas-container {
+    border: 2px solid var(--cinza-borda);
+    border-radius: 15px;
+    margin: 0.7em;
+    padding: 0.6em;
+}
+
+.categoria-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.categoria-subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin: 1em;
+}
+
+.categoria-informacoes {
+    display: flex;
+    margin: 1em;
+}
+
+.categoria-texto {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
